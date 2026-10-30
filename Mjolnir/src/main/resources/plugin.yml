@@ -1,0 +1,16 @@
+name: Mjolnir
+version: 1.0.0
+main: com.example.mjolnir.MjolnirPlugin
+api-version: "1.21"
+description: Grants the Mjolnir mace that calls down lightning.
+
+commands:
+  mjolnir:
+    description: Receive Mjolnir
+    usage: /mjolnir
+    permission: mjolnir.give
+
+permissions:
+  mjolnir.give:
+    description: Allows use of /mjolnir
+    default: op
